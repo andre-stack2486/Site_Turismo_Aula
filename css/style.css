@@ -23,7 +23,7 @@
 }
 
 footer {
-    padding: 1em !important;
+    padding: 0.3em !important;
     background-color: rgb(47, 47, 114) !important;
     color: white !important;
     text-align: center !important;
@@ -40,4 +40,52 @@ footer {
     width: 50px; 
     height: auto;
     margin-right: 10px; 
+}
+
+.carousel-item video {
+    object-fit: cover;
+  }
+
+  .carousel-item{
+    width: 100%;
+    height: 650px;
+    object-fit: cover;
+  }
+
+  .sec-pacotes{
+    margin-left: 10% !important;
+    margin-right: 10% !important;
+    justify-content: center !important;
+    margin: 1% !important; 
+  }
+
+  .card{
+    padding: 1%;
+    margin: 0% 1% 1% !important;
+  }
+
+.car p{
+    text-align: justify !important;
+}
+
+.card h4{
+    color: #894521 !important;
+}
+
+.card-img-top{
+    width: 250px !important;
+}
+
+.sec-contato{
+    margin-bottom: 10% !important;
+    margin-left: 10% !important;
+    margin-right: 10% !important;
+}
+
+.divisao{
+    background-color:  rgb(47, 47, 114) !important;
+    text-align: center !important;
+    color: white !important;
+    padding: 2em !important;
+    margin-bottom: 5em !important;
 }
